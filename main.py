@@ -8,17 +8,17 @@ CodeHS 7.3.9 - Word Ladder
 """
 INVALID_INDEX_ERROR_MESSAGE = 'invalid index'
 
+
 def get_index():
     i = -1
     while True:
         try:
             i = int(input(f'Enter an index between 0 and {max_index} or -1 to quit: '))
-            if -1 <= i < len(word): # WARNING: CodeHS auto grader does not allow max_index here
+            if -1 <= i < len(word):  # WARNING: CodeHS auto grader does not allow max_index here
                 return i
             print(INVALID_INDEX_ERROR_MESSAGE)
         except ValueError:
             print(INVALID_INDEX_ERROR_MESSAGE)
-
 
 
 def get_letter():
