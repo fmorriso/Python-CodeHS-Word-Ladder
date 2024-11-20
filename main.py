@@ -11,7 +11,7 @@ def get_index():
     i = -1
     while True:
         try:
-            i = int(input(f'Enter an index between 0 and {len(word) - 1} or -1 to quit: '))
+            i = int(input(f'Enter an index between 0 and {max_index} or -1 to quit: '))
             if -1 <= i < len(word):
                 return i
             print('invalid index')
@@ -35,6 +35,7 @@ def get_letter():
 
 
 word = input('Enter a word: ')
+max_index = len(word) - 1
 # print(f'{word=}')
 letters = list(word)
 # print(f'{letters=}')
