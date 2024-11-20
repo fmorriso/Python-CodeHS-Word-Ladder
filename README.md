@@ -23,4 +23,4 @@ An example solution to CodeHS 7.3.9 Word Ladder
 
 | Date       | Description                                                                                |
 |:-----------|:-------------------------------------------------------------------------------------------|
-| 2024-11-09 | Initial creation                                                                           |
+| 2024-11-19 | Initial creation                                                                           |
