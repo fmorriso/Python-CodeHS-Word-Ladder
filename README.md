@@ -5,8 +5,8 @@ An example solution to CodeHS 7.3.9 Word Ladder
 
 | Tool       |  Version |
 |:-----------|---------:|
-| Python     |   3.13.0 |
-| VSCode     |   1.95.2 |
+| Python     |   3.13.1 |
+| VSCode     |   1.95.3 |
 | PyCharm    | 2024.3.0 |
 
 ## Lab Instructions
@@ -21,6 +21,7 @@ An example solution to CodeHS 7.3.9 Word Ladder
 
 ## Change History
 
-| Date       | Description                                                                                |
-|:-----------|:-------------------------------------------------------------------------------------------|
-| 2024-11-19 | Initial creation                                                                           |
+| Date       | Description                          |
+|:-----------|:-------------------------------------|
+| 2024-11-19 | Initial creation                     |
+| 2024-12-09 | verify code works with python 3.13.1 |
